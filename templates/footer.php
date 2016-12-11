@@ -2,7 +2,7 @@
   <div class="uk-modal-dialog uk-modal-dialog-blank">
       <button class="uk-modal-close uk-close" type="button"></button>
       <div class="uk-grid uk-flex-middle" data-uk-grid-margin="">
-          <div class="uk-width-medium-1-2 uk-height-viewport uk-cover-background uk-row-first" style="background-image: url('css/images/pattern.png');"></div>
+          <div class="uk-width-medium-1-2 uk-height-viewport uk-cover-background uk-row-first" style="background-image: url('css/images/bg.jpg');"></div>
           <div class="uk-width-medium-1-2">
           <h1>Headline</h1>
               <div class="uk-width-medium-1-3">
