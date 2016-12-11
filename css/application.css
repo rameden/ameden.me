@@ -10894,6 +10894,9 @@ a > .bt-icon {
   height: 1.25em;
   transform: translateY(0.2em);
 }
+html {
+  font: 400 16px / 1.7 'muli', sans-serif;
+}
 h1,
 h2,
 h3,
@@ -10914,15 +10917,112 @@ h2 {
   font-weight: 700;
   line-height: 1.25;
 }
+h4 {
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.25;
+}
 p {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'muli', sans-serif;
 }
 svg:not(:root) {
   overflow: hidden;
 }
+.uk-margin-medium-top {
+  margin-top: 32px !important;
+}
+.uk-margin-medium-bottom {
+  margin-bottom: 32px !important;
+}
 header {
   width: 100%;
   padding: 25px;
+}
+.button {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+  margin: 0;
+  padding: 0 32px;
+  height: 48px;
+  border: 0;
+  border-radius: 3px;
+  background: #ececec;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  color: #333;
+  vertical-align: middle;
+  text-align: center;
+  text-decoration: none;
+  text-transform: none;
+  text-transform: uppercase;
+  white-space: nowrap;
+  letter-spacing: .25em;
+  font: inherit;
+  font-weight: 600;
+  font-weight: 400;
+  font-size: 16px;
+  font-size: 14px;
+  line-height: 48px;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1);
+  transform-origin: center center;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: 'muli', sans-serif;
+}
+.button:focus,
+.button:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  transform: translateY(-2px);
+}
+.uk-link:hover,
+a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+.button-resume {
+  background-color: transparent;
+  background-image: url(/css/images/pattern.png) !important;
+  background-repeat: no-repeat;
+  color: #fff;
+  background-position: 70% 90%!important;
+}
+[class^=social-] {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-image: url(/css/images/pattern.png);
+  background-repeat: no-repeat;
+  text-align: center;
+  line-height: 50px;
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-origin: center center;
+  margin-right: 10px;
+}
+.social-github {
+  background-position: 45% 70%;
+}
+.social-twitter {
+  background-position: 70% 10%;
+}
+.social-facebook {
+  background-position: 50% 25%;
+}
+[class^=social-] svg {
+  width: 1.25em;
+  height: 1.25em;
+  fill: #fff;
+}
+.icon {
+  position: relative;
+  top: -1px;
+  max-width: 100%;
+  width: 1em;
+  height: 1em;
+  line-height: 1;
+  fill: currentColor;
 }
 .about-trigger {
   display: inline-block;
@@ -10949,6 +11049,9 @@ header {
   fill: #0069ff;
 }
 @media (min-width: 768px) {
+  h2 {
+    font-size: 32px;
+  }
   .intro-content {
     display: -ms-flexbox;
     display: flex;
