@@ -3,7 +3,7 @@
         <a class="uk-modal-close uk-close"></a>
         <div class="uk-content uk-margin-top uk-margin-bottom">
           <div class="modal-header uk-text-center">
-            <img class="uk-border-circle" src="css/images/head.jpg" alt="" width="100">
+            <img class="uk-border-circle" src="/assets/css/images/head.jpg" alt="" width="100">
             <h2 class="uk-margin-medium-top">Hi, I'm Ryley.</h2>
               <div class="socail-modal uk-flex uk-flex-center">
                 <div>

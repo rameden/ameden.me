@@ -51,7 +51,7 @@
 <svg width="1500" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
       <pattern id="pattern" x="0" y="0" width="1" height="1">
-        <image transform="scale(1.5)" x="-700" y="-100" width="1500" height="1000" xlink:href="/css/images/pattern.png"></image>
+        <image transform="scale(1.5)" x="-700" y="-100" width="1500" height="1000" xlink:href="/assets/css/images/pattern.png"></image>
       </pattern>
     </defs>
     <rect width="1500" height="1000" fill="url(#pattern)"></rect>
