@@ -6,6 +6,7 @@
  * 2. Prevents iOS text size adjust after orientation change, without disabling user zoom
  * 3. Style
  */
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700|Oswald:300,700|Nixie+One');
 html {
   /* 1 */
   font: normal 14px / 1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -10893,8 +10894,79 @@ a > .bt-icon {
   height: 1.25em;
   transform: translateY(0.2em);
 }
-h1 {
-  color: blue;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Muli', sans-serif;
+  color: #222;
+}
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+.uk-h5 {
+  font-family: 'Muli', sans-serif;
+}
+h1,
+h2 {
+  font-weight: 700;
+  line-height: 1.25;
+}
+p {
+  font-family: 'Oswald', sans-serif;
+}
+svg:not(:root) {
+  overflow: hidden;
+}
+header {
+  width: 100%;
+  padding: 25px;
+}
+.about-trigger {
+  display: inline-block;
+  transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transform-origin: center center;
+}
+.about-trigger:hover {
+  transform: scale(1.25);
+}
+.intro-wrapper {
+  width: 100%;
+}
+.icon-logo {
+  width: 95px;
+  height: 95px;
+}
+.intro-header h1 {
+  font-size: 40px;
+}
+.dyn-logo {
+  width: 40px;
+  height: 40px;
+  transform-origin: center center;
+  fill: #0069ff;
+}
+@media (min-width: 768px) {
+  .intro-content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    -ms-flex-align: center;
+    -ms-flex-pack: center;
+  }
+  .intro-logo {
+    margin-right: 40px;
+  }
+  .intro-copy h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+  }
 }
 
 /*# sourceMappingURL=application.css.map */
