@@ -1,5 +1,5 @@
-<div class="uk-vertical-align uk-height-viewport">
-    <div class="intro-wrapper uk-vertical-align-middle">
+<div class="uk-vertical-align uk-height-viewport ">
+    <div class="intro-wrapper uk-vertical-align-middle uk-animation-slide-bottom">
       <div class="intro-content">
         <div class="intro-logo"><!--<img class="icon-logo" src="css/images/logo.svg" alt="Ameden">-->
           <svg fill="url(#pattern)" class="icon-logo">
