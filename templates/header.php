@@ -1,5 +1,5 @@
 
-<a class="uk-align-right about-trigger uk-animation-slide-top" href="#about-modal" data-uk-modal=""><img class="uk-border-circle" src="css/images/head.jpg" alt="" width="50"></a>
+<a class="uk-align-right about-trigger uk-animation-slide-top" href="#about-modal" data-uk-modal=""><img class="uk-border-circle" src="/assets/css/images/head.jpg" alt="" width="50"></a>
 <div style="border: 0px; clip: rect(0px 0px 0px 0px); height: 0px; overflow: hidden; padding: 0px; position: absolute; width: 0px;">
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <symbol viewBox="0 0 18.9 14.5" id="email">
