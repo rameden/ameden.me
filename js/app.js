@@ -10347,6 +10347,7 @@ return jQuery;
 jQuery(document).ready(function($){
   $("header").load("/templates/header.php");
   $("#intro").load("/templates/intro.php");
+  $("#footer").load("/templates/footer.php");
 });
 
 /*! UIkit 2.27.2 | http://www.getuikit.com | (c) 2014 YOOtheme | MIT License */
