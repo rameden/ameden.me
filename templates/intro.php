@@ -9,7 +9,7 @@
         <div class="intro-copy">
           <h1>Ryley Ameden</h1>
           <div class="intro-sub">
-            <span class="uk-h2 uk-text-muted uk-margin-right">Web Developer at</span>
+            <span class="uk-h2 uk-text-muted uk-margin-right">UI/UX Developer at</span>
             <img class="dyn-logo" src="/assets/css/images/dyn.svg" alt="Dyn">
           </div>
         </div>
