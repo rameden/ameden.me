@@ -1,5 +1,5 @@
-<div id="about-modal" class="uk-modal uk-animation-scale">
-    <div class="uk-modal-dialog">
+<div id="about-modal" class="uk-modal">
+    <div class="uk-modal-dialog uk-animation-scale">
         <a class="uk-modal-close uk-close"></a>
         ...
     </div>
