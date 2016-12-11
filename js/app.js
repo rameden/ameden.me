@@ -10345,8 +10345,8 @@ return jQuery;
 
 }));
 jQuery(document).ready(function($){
-  $("header").load("/dist/templates/header.php");
-  $("#intro").load("/dist/templates/intro.php");
+  $("header").load("/templates/header.php");
+  $("#intro").load("/templates/intro.php");
 });
 
 /*! UIkit 2.27.2 | http://www.getuikit.com | (c) 2014 YOOtheme | MIT License */
