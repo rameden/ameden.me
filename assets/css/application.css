@@ -11029,6 +11029,9 @@ a:hover {
   transform-origin: center center;
   margin-right: 10px;
 }
+[class^=social-]:focus {
+  outline: none;
+}
 .social-github {
   background-position: 45% 70%;
 }
