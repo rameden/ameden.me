@@ -10934,6 +10934,27 @@ svg:not(:root) {
 .uk-margin-medium-bottom {
   margin-bottom: 32px !important;
 }
+.uk-margin-medium-right {
+  margin-right: 32px !important;
+}
+.resume-intro img {
+  min-width: 100px;
+}
+.uk-badge {
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 16px;
+}
+.uk-badge-success {
+  border-color: #00cd8d;
+  background: #00cd8d;
+  color: #fff;
+}
+.uk-badge-normal {
+  border-color: #e0e0e0;
+  background: #fff;
+  color: #848484;
+}
 header {
   width: 100%;
   padding: 25px;
