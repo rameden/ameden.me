@@ -35,11 +35,11 @@
             </div>
             <div class="uk-width-small-1-1 uk-width-medium-1-2">
               <h4>Working Together?</h4>
-              <p>My motto is: “Helping everyday business with development and marketing” Sound good? <a href="mailto:ryley@ameden.me">Contact me</a>.</p>
+              <p>My motto is: “Helping everyday business with development and marketing” Sound up your alley? <a href="mailto:ryley@ameden.me">Contact me</a>.</p>
             </div>
             <div class="uk-width-small-1-1 uk-width-medium-1-2">
               <h4>How'd you build this site?!</h4>
-              <p>Because I love open-source it's available for you to see. Find a bug? Report it!<a href="https://github.com/rameden/ameden.me"> View source</a>.</p>
+              <p>Because I love open-source it's available for you to see. Find a bug? Report it!<a target="_blank" href="https://github.com/rameden/ameden.me"> View source</a>.</p>
             </div>
           </div>
           <div class="uk-text-muted uk-text-center uk-margin-medium-top">Copyright © 2016 Ryley Ameden. MTFBWU</div>
