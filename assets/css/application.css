@@ -11083,6 +11083,11 @@ a:hover {
   transform-origin: center center;
   fill: #0069ff;
 }
+@media (max-width: 768px) {
+  .intro-content {
+    text-align: center;
+  }
+}
 @media (min-width: 768px) {
   h2 {
     font-size: 32px;
