@@ -10894,6 +10894,22 @@ a > .bt-icon {
   height: 1.25em;
   transform: translateY(0.2em);
 }
+@font-face {
+  font-family: "Galano Grotesque Bold";
+  src: url('/assets/fonts/Rene Bieder - Galano Grotesque Bold.otf') format('truetype');
+}
+@font-face {
+  font-family: "Galano Grotesque Semi Bold";
+  src: url('/assets/fonts/Rene Bieder - Galano Grotesque.otf') format('truetype');
+}
+@font-face {
+  font-family: "Galano Grotesque Medium";
+  src: url('/assets/fonts/Rene Bieder - Galano Grotesque Medium.otf') format('truetype');
+}
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url('/assets/fonts/Rene Bieder - Galano Grotesque.otf') format('truetype');
+}
 html {
   font: 400 16px / 1.7 'muli', sans-serif;
 }
@@ -10902,8 +10918,11 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Muli', sans-serif;
+  font-family: 'Galano Grotesque Semi Bold', 'muli' sans-serif;
   color: #222;
+}
+strong {
+  font-family: 'Galano Grotesque Bold', 'muli' sans-serif;
 }
 .uk-h1,
 .uk-h2,
@@ -11061,12 +11080,10 @@ a:hover {
 }
 .about-trigger {
   display: inline-block;
-}
-.about-trigger img {
   transition: transform 0.25s cubic-bezier(0.175, 0.885, 0.32, 1.275);
   transform-origin: center center;
 }
-.about-trigger:hover img {
+.about-trigger:hover {
   transform: scale(1.25);
 }
 .intro-wrapper {
@@ -11084,11 +11101,6 @@ a:hover {
   height: 40px;
   transform-origin: center center;
   fill: #0069ff;
-}
-@media (max-width: 768px) {
-  .intro-content {
-    text-align: center;
-  }
 }
 @media (min-width: 768px) {
   h2 {
