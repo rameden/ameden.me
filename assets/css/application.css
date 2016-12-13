@@ -11132,5 +11132,15 @@ a:hover {
     margin-bottom: 5px;
   }
 }
+@media (min-width: 960px) {
+  .uk-grid-large > * {
+    padding-left: 25px;
+  }
+}
+@media (min-width: 1220px) {
+  .uk-grid-large > * {
+    padding-left: 75px;
+  }
+}
 
 /*# sourceMappingURL=application.css.map */
