@@ -10969,6 +10969,11 @@ svg:not(:root) {
   background: #00cd8d;
   color: #fff;
 }
+.uk-badge-success-alt {
+  border-color: #1489fe;
+  background: #1489fe;
+  color: #fff;
+}
 .uk-badge-normal {
   border-color: #e0e0e0;
   background: #fff;
