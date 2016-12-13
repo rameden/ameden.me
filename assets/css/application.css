@@ -11139,12 +11139,18 @@ a:hover {
 }
 @media (min-width: 960px) {
   .uk-grid-large > * {
-    padding-left: 25px;
+    padding-left: 35px;
+  }
+  .uk-grid-large {
+    margin-left: -35px;
   }
 }
 @media (min-width: 1220px) {
   .uk-grid-large > * {
     padding-left: 75px;
+  }
+  .uk-grid-large {
+    margin-left: -75px;
   }
 }
 
