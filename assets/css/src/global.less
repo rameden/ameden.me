@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css?family=Muli:400,600,700|Oswald:300,700|Nixie+One');
+
+@font-face {
+  font-family: "Galano Grotesque Bold";
+  src: url('fonts/Rene Bieder - Galano Grotesque Bold.otf') format('truetype');
+  // src: url('Rene Bieder - Galano Grotesque Bold.otf?#iefix') format('embedded-opentype'),
+  //      url('Rene Bieder - Galano Grotesque Bold.woff') format('woff'),
+  //      url('Rene Bieder - Galano Grotesque Bold.ttf') format('truetype')
+}
+
+@font-face {
+  font-family: "Galano Grotesque Semi Bold";
+  src: url('fonts/Rene Bieder - Galano Grotesque.otf') format('truetype');
+  // src: font-url('Rene Bieder - Galano Grotesque.otf?#iefix') format('embedded-opentype'),
+  //      font-url('Rene Bieder - Galano Grotesque.otf') format('woff'),
+  //      font-url('Rene Bieder - Galano Grotesque.otf') format('truetype')
+}
+
+@font-face {
+  font-family: "Galano Grotesque Medium";
+  src: url('fonts/Rene Bieder - Galano Grotesque Medium.otf') format('truetype');
+  // src: url('Rene Bieder - Galano Grotesque Medium.otf?#iefix') format('embedded-opentype'),
+  //      url('Rene Bieder - Galano Grotesque Medium.woff') format('woff'),
+  //      url('Rene Bieder - Galano Grotesque Medium.ttf') format('truetype')
+}
+
+
+@font-face {
+  font-family: "Galano Grotesque";
+  src: url('fonts/Rene Bieder - Galano Grotesque.otf') format('truetype');
+  // src: font-url('Rene Bieder - Galano Grotesque.otf?#iefix') format('embedded-opentype'),
+  //      font-url('Rene Bieder - Galano Grotesque.otf') format('woff'),
+  //      font-url('Rene Bieder - Galano Grotesque.otf') format('truetype')
+}
+
+
+html{
+  font:400 16px / 1.7 'muli', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5{
+  font-family: 'Galano Grotesque Semi Bold', 'muli' sans-serif;
+  color:#222;
+}
+strong{
+  font-family: 'Galano Grotesque Bold', 'muli' sans-serif;
+}
+.uk-h1,
+.uk-h2,
+.uk-h3,
+.uk-h4,
+.uk-h5{
+    font-family: 'Muli', sans-serif;
+}
+h1, h2 {
+    font-weight: 700;
+    line-height: 1.25;
+}
+h4{
+  font-weight: 900;
+  font-size: 20px;
+  line-height: 1.25;
+}
+p{
+  font-family: 'muli', sans-serif;
+}
+
+svg:not(:root) {
+    overflow: hidden;
+}
+#about-modal p .uk-link, #about-modal p a {
+    color: #444 !important;
+    border-bottom:2px solid #03adf7 !important;
+    text-decoration: none;
+}
+#about-modal p .uk-link:hover, #about-modal p a:hover {
+    color: #ccc !important;
+    text-decoration: none;
+}
+#about-modal a.uk-close{
+  border-bottom:none !important;
+}
+.uk-margin-medium-top{
+  margin-top:32px !important;
+}
+.uk-margin-medium-bottom{
+  margin-bottom:32px !important;
+}
+
+.uk-margin-medium-right{
+  margin-right:32px !important;
+}
+.resume-intro img{
+  min-width: 100px;
+}
+.uk-badge {
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 16px;
+}
+
+.uk-badge-success{
+  border-color: #00cd8d;
+  background: #00cd8d;
+  color: #fff;
+}
+
+.uk-badge-normal{
+  border-color:#e0e0e0;
+  background:#fff;
+  color:#848484;
+}
+
+header{
+  width: 100%;
+  padding: 25px;
+}
+
+.button {
+    position: relative;
+    display: inline-block;
+    overflow: visible;
+    margin: 0;
+    padding: 0 32px;
+    height: 48px;
+    border: 0;
+    border-radius: 3px;
+    background: #ececec;
+    box-shadow: 0 0 15px rgba(0,0,0,.15);
+    color: #333;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    text-transform: uppercase;
+    white-space: nowrap;
+    letter-spacing: .25em;
+    font: inherit;
+    font-weight: 600;
+    font-weight: 400;
+    font-size: 16px;
+    font-size: 14px;
+    line-height: 48px;
+    cursor: pointer;
+    transition: all .25s cubic-bezier(.645,.045,.355,1);
+    transform-origin: center center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    font-family: 'muli', sans-serif;
+}
+
+.button:focus, .button:hover {
+    box-shadow: 0 0 15px rgba(0,0,0,.3);
+    transform: translateY(-2px);
+}
+
+.uk-link:hover, a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.uk-modal{
+  background: hsla(0,0%,98%,.85);
+}
+
+.uk-modal-dialog{
+  border: 1px solid #e0e0e0;
+  box-shadow: 0 0 6px -2px rgba(0,0,0,.15);
+}
+
+.button-resume {
+    background-color: transparent;
+    background-image: url(../media/pattern.png)!important;
+    background-repeat: no-repeat;
+    color: #fff;
+    background-position: 70% 90%!important;
+}
+
+
+[class^=social-] {
+    display: block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-image: url(../media/pattern.png);
+    background-repeat: no-repeat;
+    text-align: center;
+    line-height: 50px;
+    transition: transform .25s cubic-bezier(.175,.885,.32,1.275);
+    transform-origin: center center;
+    margin-right:10px;
+}
+
+[class^=social-]:focus{
+  outline:none;
+}
+
+[class^=social-]:hover{
+  box-shadow: 0 0 15px rgba(0,0,0,.3);
+  transform: translateY(-2px);
+}
+
+.social-github {
+    background-position: 45% 70%;
+}
+
+.social-twitter {
+    background-position: 70% 10%;
+}
+
+.social-facebook {
+    background-position: 50% 25%;
+}
+
+[class^=social-] svg {
+    width: 1.25em;
+    height: 1.25em;
+    fill: #fff;
+}
+
+.icon {
+    position: relative;
+    top: -1px;
+    max-width: 100%;
+    width: 1em;
+    height: 1em;
+    line-height: 1;
+    fill: currentColor;
+}
+
+.about-trigger img{
+    display: inline-block;
+    transition: transform .25s cubic-bezier(.175,.885,.32,1.275);
+    transform-origin: center center;
+}
+
+.about-trigger:hover img {
+    transform: scale(1.25);
+}
+
+.intro-wrapper{
+  width:100%;
+}
+
+.icon-logo{
+  width: 95px;
+  height: 95px;
+}
+
+.intro-header h1{
+  font-size:40px;
+}
+
+.dyn-logo{
+    width: 40px;
+    height: 40px;
+    transform-origin: center center;
+    fill: #0069ff;
+}
+
+@media (min-width: 768px){
+  h2{
+    font-size:32px;
+  }
+  .intro-content{
+      display: -ms-flexbox;
+      display: flex;
+      -ms-flex-direction: row;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      -ms-flex-align: center;
+      -ms-flex-pack: center;
+  }
+
+  .intro-logo{
+      margin-right: 40px;
+  }
+
+  .intro-copy h1{
+    font-size:50px;
+    margin-bottom: 5px;
+  }
+}
+@media (min-width: 960px){
+  .uk-grid-large>* {
+      padding-left: 50px;
+  }
+  .uk-grid-large {
+      margin-left: -50px;
+  }
+
+}
+@media (max-width: 960px){
+  #intro{
+    text-align: center;
+  }
+}
+@media (min-width: 1220px){
+  .uk-grid-large>* {
+    padding-left: 75px;
+  }
+  .uk-grid-large {
+      margin-left: -75px;
+  }
+}
