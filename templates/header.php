@@ -1,5 +1,5 @@
 
-<a class="uk-align-right about-trigger uk-animation-slide-top" href="#about-modal" data-uk-modal=""><img class="uk-border-circle" src="assets/media/head.jpg" alt="" width="50"></a>
+<a class="uk-align-right about-trigger uk-animation-slide-top" href="#about-modal" data-uk-modal=""><img class="uk-border-circle" src="/assets/css/images/head.jpg" alt="" width="50"></a>
 <div style="border: 0px; clip: rect(0px 0px 0px 0px); height: 0px; overflow: hidden; padding: 0px; position: absolute; width: 0px;">
   <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <symbol viewBox="0 0 18.9 14.5" id="email">
@@ -51,7 +51,7 @@
 <svg width="1500" height="1000" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
       <pattern id="pattern" x="0" y="0" width="1" height="1">
-        <image transform="scale(1.5)" x="-700" y="-100" width="1500" height="1000" xlink:href="assets/media/pattern.png"></image>
+        <image transform="scale(1.5)" x="-700" y="-100" width="1500" height="1000" xlink:href="/assets/css/images/pattern.png"></image>
       </pattern>
     </defs>
     <rect width="1500" height="1000" fill="url(#pattern)"></rect>
